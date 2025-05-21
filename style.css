@@ -260,7 +260,7 @@ h1{
 
 /*Project section CSS*/
 .project-section-container{
-  background-image: url("/Swathi_Portfolio/images/projects_page.png");
+  background-image: url("./images/projects_page.png");
   background-size: contain;
   background-repeat: no-repeat;
   padding: 20px 20px 20px 20px;
