@@ -6,10 +6,185 @@
   <title>Swathi Ramesh</title>
   <link rel="icon" href="/Swathi_Portfolio/images/logo.png">
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-  <div class="container">
-    <img class="background-image" src="/Swathi_Portfolio/images/home_page.png">
+
+  <!--HOME PAGE-->
+  <div id="home" class="container">
+    <div class="top-elements">
+      <div class="logo-container">
+        <img src="/Swathi_Portfolio/images/logo.png">
+      </div>
+      <div class="options">
+        <a class="option-elements" href="#home">Home</a>
+        <a class="option-elements" href="#about">About</a>
+        <a class="option-elements" href="#projects">Projects</a>
+        <a class="option-elements" href="#contact">Contact</a>
+      </div>
+    </div>
+
+    <div class="middle-section">
+      <p class="header">Hello World! I'm <span class="name">Swathi</span></p>
+      <hr>
+      <p class="roles">Student</p><hr>
+      <p class="roles">UI/UX Designer</p><hr>
+      <p class="roles">Front End Learner</p>
+      <img class="girl" src="/Swathi_Portfolio/images/home_img.png">
+    </div>
   </div>
+
+
+  <!--ABOUT PAGE-->
+  <h1>About Me</h1>
+    <div class="about-page" id="about">
+      <div class="about-me">
+        <p class="about-me-content">
+          I’m Swathi, a second-year <span class="highlight">Electronics and Communication Engineering</span> student 
+          at Dr. Mahalingam College of Engineering and Technology, Pollachi —
+          where I was also born and brought up.
+        </p>
+
+        <p class="about-me-content">
+          I have a strong interest in <span class="highlight">UI/UX design</span> and 
+          I am currently developing my skills in front-end technologies such as <span class="highlight">HTML, CSS, and JavaScript.</span>
+        </p>
+
+        <p class="about-me-content">
+          In my free time, I like to read books and draw.
+        </p>
+
+        <p class="about-me-content">
+          I am currently <span class="highlight">seeking internship opportunities</span> where I can apply my knowledge, gain hands-on experience, 
+          and contribute to meaningful projects in the field of design and front-end development.
+        </p>
+
+        <p class="about-me-content">
+          With a strong foundation built during my school years and a clear vision for my future, 
+          I am excited to explore opportunities that allow me to grow as a creative technologist and 
+          contribute to impactful digital solutions.
+        </p>
+
+        <p class="about-me-content">
+          <span class="highlight">"Let’s build, break, and create something unforgettable</span> — one wireframe at a time. 
+          Because behind every great interface is a curious mind, a messy sketchbook, and a bold idea waiting to happen." 
+        </p>
+
+        <button class="resume">Resume</button>
+        <button class="resume">CV</button>
+      </div>
+
+      <div class="my-photo">
+        <img class="swathi-photo" src="/Swathi_Portfolio/images/swathi.png">
+      </div>
+    </div>
+
+
+
+  <!--PROJECTS SECTION-->
+  <div class="project-section-container" id="projects">
+    <h1>Projects:</h1>
+    <p class="project-header-line">
+      "Every pro was once a beginer"
+    </p>
+    <p class="project-header-content">
+      Here are a few little things I have build while learning to code.
+      You can view them live or peek into the code on GitHub.
+    </p>
+
+    <div class="projects">
+      <div class="my-projects">
+        <div class="project-image">
+          <img class="project-img" src="/Swathi_Portfolio/images/skycast.png">
+        </div>
+        <div class="project-grid-content">
+          <p class="project-title">
+            SkyCast
+          </p>
+          <p class="project-explanation">
+            Sky Cast provides live weather updates with details like temperature, sunrise, and air pressure — 
+            plus an uplifting quote with every forecast.
+          </p>
+        </div>
+        <button class="demo" data-channel-url="https://swathiramesh24.github.io/Weather_Website/" onclick="handleClick(this)">Live</button>
+        <button class="demo" data-channel-url="https://github.com/swathiramesh24/Weather_Website" onclick="handleClick(this)">GitHub</button>
+      </div>
+
+      <div class="my-projects">
+        <div class="project-image">
+          <img class="project-img" src="/Swathi_Portfolio/images/yt_clone.png">
+        </div>
+        <div class="project-grid-content">
+          <p class="project-title">
+            Youtube Clone
+          </p>
+          <p class="project-explanation">
+            A sleek web app that mimics YouTube's core interface — 
+            featuring a responsive layout, custom video grid, built with HTML, CSS, and JS.  
+          </p>
+        </div>
+        <button class="demo" data-channel-url="https://swathiramesh24.github.io/Youtube_Clone/" onclick="handleClick(this)">Live</button>
+        <button class="demo" data-channel-url="https://github.com/swathiramesh24/Youtube_Clone" onclick="handleClick(this)">GitHub</button>
+      </div>
+
+      <div class="my-projects">
+        <div class="project-image">
+          <img class="project-img" src="/Swathi_Portfolio/images/movie_review.png">
+        </div>
+        <div class="project-grid-content">
+          <p class="project-title">
+            Movie Review Site
+          </p>
+          <p class="project-explanation">
+            A clean and responsive movie review platform built with HTML and CSS. 
+            Features include a modern homepage, movie cards and a review section.
+          </p>
+        </div>
+        <button class="demo" data-channel-url="https://swathiramesh24.github.io/Movie_Review_Website/" onclick="handleClick(this)" >Live</button>
+        <button class="demo" data-channel-url="https://github.com/swathiramesh24/Movie_Review_Website" onclick="handleClick(this)">GitHub</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="contact-page" id="contact">
+    <h1 style="text-align: center;">Drop A Message</h1>
+    <p class="project-header-content" style="text-align: center;">
+      I’m excited to connect with professionals and peers alike. 
+      If you’re interested in discussing projects, collaboration, or internship opportunities, feel free to get in touch.
+    </p>
+    <p class="project-header-content" style="text-align: center;">
+      Looking forward to exploring new ideas, sharing knowledge, and 
+      creating impactful work together. Don’t hesitate to reach out — 
+      let’s make something great happen!
+    </p>
+
+    <div class="icons">
+       <a href="https://www.linkedin.com/in/swathiramesh24?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="link" style="background-color: blue;">
+        <i class='bx bxl-linkedin'></i>
+      </a>
+
+      <a href="https://github.com/swathiramesh24" class="link" style="background-color: black;">
+        <i class='bx bxl-github'></i>
+      </a>
+
+      <a href="https://www.instagram.com/swathii_24_/" class="link" style="background-color: rgb(224, 43, 73);">
+        <i class='bx bxl-instagram'></i>
+      </a>
+    </div>
+  </div>
+
+  <footer>
+    <p class="footer-text">
+      © 2025 Swathi Ramesh. All rights reserved.
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
